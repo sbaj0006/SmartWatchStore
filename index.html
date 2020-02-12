@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head profile="http://www.w3.org/2005/10/profile">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <title>Smart Watch Store</title>
+    <script
+      src="https://kit.fontawesome.com/d6251d754b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/png" href="http://example.com/myicon.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar">
+      <div class="navbar-center">
+        <span class="nav-icon">
+          <i class="fas fa-bars"></i>
+        </span>
+        <img
+          src="./images/wa.png"
+          alt="SmartWatch logo"
+          height="60"
+          width="300"
+        />
+        <div class="cart-btn">
+          <span class="nav-icon">
+            <i class="fas fa-cart-plus"></i>
+          </span>
+          <div class="cart-items">0</div>
+        </div>
+      </div>
+    </nav>
+    <!--end of navbar-->
+    <!--hero-->
+    <header class="hero">
+      <div class="banner">
+        <h1 class="banner-title">SmartWatch Collection</h1>
+        <button class="banner-btn">Shop Now</button>
+      </div>
+    </header>
+    <!--end of hero-->
+    <!--products-->
+    <section class="products">
+      <div class="section-title">
+        <h2>Our Products</h2>
+      </div>
+      <div class="products-center">
+        <!--single product-->
+        <!-- <article class="product">
+          <div class="img-container">
+            <img
+              src="./images/product-1.jpeg"
+              alt="Product"
+              class="product-img"
+            />
+            <button class="bag-btn" data-id="1">
+              <i class="fas fa-shopping-cart"></i>
+              add to bag
+            </button>
+          </div>
+          <h3>Smart Watch</h3>
+          <h4>$16</h4>
+        </article> -->
+
+        <!-- end of single product-->
+      </div>
+    </section>
+    <!--end of products-->
+    <!--cart-->
+    <div class="cart-overlay">
+      <div class="cart">
+        <span class="close-cart">
+          <i class="fas fa-window-close"></i>
+        </span>
+        <h2 style="color: black;">Your cart</h2>
+        <div class="cart-content">
+          <!--cart item-->
+          <!-- <div class="cart-item">
+            
+          </div> -->
+          <!-- end of cart item-->
+        </div>
+        <div class="cart-footer">
+          <h3>Your total: $ <span class="cart-total">0</span></h3>
+          <button class="clear-cart banner-btn">Clear cart</button>
+        </div>
+      </div>
+    </div>
+    <!-- end of car-->
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
